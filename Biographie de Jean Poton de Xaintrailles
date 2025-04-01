@@ -11,54 +11,40 @@
       <section>
         <h2>Site de présentation du mémoire</h2>
         <p>Ce site a vocation d'être un annexe du mémoire, il sert d'introduction au sujet et de tremplin vers les différents lien web traitant du sujet</p>
-        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
-        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        <p> Jean, dit “Poton”, de Xaintrailles (≃1400-1461) participa de son vivant, à la plupart des grands événements de la Guerre de Cent Ans. Gentilhomme de Gascogne, il côtoya certaines des plus grandes figures de son temps comme le Roy de France Charles VII, le général anglais John Talbot ainsi que Sainte Jeanne d’Arc de France. Il fût vainqueur à Patay ainsi qu’à Orléans, maréchal de France, gouverneur de Guyenne mais aussi jouteur de renom. 
+L’objectif de ce travail biographique, se voulant dans la continuité du renouveau biographique de la fin du XXe siècle amorcé par Paul Murray Kendall et Jacques Le Goff, n’est pas simplement de relater une liste de faits déjà connus des historiens. L’objectif est d’étudier par l’analyse son cas exceptionnel la fin de la Guerre de Cent ans pour la petite noblesse gasconne. Cette recherche s’appuie principalement sur les actes de la pratique émis par lui-même ou le concernant ainsi que par les témoignages de ses contemporains relatant son parcours et ses actions.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blason_ville_fr_Xaintrailles_%28Lot-et-Garonne%29.svg/800px-Blason_ville_fr_Xaintrailles_%28Lot-et-Garonne%29.svg.png" alt="Blason de Poton.">
+          <figcaption>Blason de Jean Poton de Xaintrailles.</figcaption>
       </section>
       <section>
-        <h2>Cat Lists</h2>
-        <h3>Things cats love:</h3>
+        <h2>Liste des sources biographiques</h2>
+        <h3>Sources de la BNF :</h3>
         <ul>
-          <li>catnip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
+          <li><a href="https://mandragore.bnf.fr/mirador/ark:/12148/btv1b105380390/f121">Philippe III le Bon et Jean Poton.</a></li>
+          <li><a href="https://mandragore.bnf.fr/mirador/ark:/12148/btv1b105380390/f48">La Hire et Jean Poton nommés capitaines.</a></li>
+          <li><a href="https://mandragore.bnf.fr/mirador/ark:/12148/btv1b105380390/f177">Bataille de Gerberoy (1432).</a></li>
+          <li><a href="https://mandragore.bnf.fr/mirador/ark:/12148/btv1b105380390/f158">Bataille de Beauvais (1431).</a></li>
         </ul>
         <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
-          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
-        </figure>
-        <h3>Top 3 things cats hate:</h3>
-        <ol>
-          <li>flea treatment</li>
-          <li>thunder</li>
-          <li>other cats</li>
-        </ol>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Xaintrailles_and_La_Hire2.jpg/1200px-Xaintrailles_and_La_Hire2.jpg" alt="Poton et la Hire nommés capitaines (Martial d'Auvergne).">
+          <figcaption>Poton et la Hire nommés capitaines <strong>Martial d'Auvergne</strong>..</figcaption>  
         <figure>
-          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
-          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Monvoisin_-_Jean_Poton_de_Xaintrailles_%281390-1461%29_-_MV_964.jpg/280px-Monvoisin_-_Jean_Poton_de_Xaintrailles_%281390-1461%29_-_MV_964.jpg" alt="Poton par MONVOISIN Raymond Quinsac">
+          <figcaption>Poton par <strong>MONVOISIN Raymond Quinsac</strong>.</figcaption>  
         </figure>
       </section>
       <section>
-        <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
-          <fieldset>
-            <legend>Is your cat an indoor or outdoor cat?</legend>
-            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
-            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-          </fieldset>
-          <fieldset>
-            <legend>What's your cat's personality?</legend>
-            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
-            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
-            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
-          </fieldset>
-          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-          <button type="submit">Submit</button>
+        <h2>Sources supplémenentaires</h2>
+        <form>
+          <input type="text" name="sources additionnelles" placeholder="proposition de sources" required>
+          <button type="submit">soumettre</button>
         </form>
       </section>
     </main>
     <footer>
       <p>
-        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+         travail réalisé en vu d'un mémoire au sein de l'<strong>Université Bordeaux Montaigne</strong> UFR Humanités dans le cadre d'un Master recherche Mention Histoire, civilisation, patrimoine Parcours Etudes Médiévales
       </p>
     </footer>
   </body>
